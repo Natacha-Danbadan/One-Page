@@ -10,8 +10,24 @@ box-sizing: border-box;
     color: #2487ce;
 }
 .text-pri {
-color: #1e6ca6;
+    color: #1e6ca6;
 }
+.two{
+    color:#ffa76e;
+}
+.three{
+    color: #e80368;
+}
+.four{
+    color: #ffbb2c;
+}
+.five{
+    color: #ff5828;
+}
+.six{
+    color: #11dbcf;
+}
+
 .top-hero-section{
     background: url(../img/hero-bg.jpg) no-repeat;
     background-size: cover;
@@ -33,7 +49,7 @@ color: #1e6ca6;
     padding-left: 0px;
 }
 
-#count-section, #Services{
+#count-section, #services{
     background-color: #f8fbfe;
 }
 #clients{
@@ -85,4 +101,96 @@ color: #1e6ca6;
     color: #999;
     margin-bottom:50px;
 }
+.card{
+    box-shadow: 0px 5px 90px 0px rgb(110 123 131 / 5%);
+    border: 8px solid white;
+    height: 300px;
+}
 
+.card .icon{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: ease-in-out 0.3s;
+    position: relative;
+}
+.card .icon svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.card .icon i{
+    font-size: 36px;
+    transition: 0.5s;
+    position: relative;
+}
+.icon-one:hover .icon path {
+    fill: #47aeff;
+}
+.icon-one:hover .icon i {
+    color: #fff;
+}
+.icon-two:hover .icon path {
+    fill: #ffa76e;
+}
+.icon-two:hover .icon i {
+    color: #fff;
+}
+.icon-three:hover .icon path {
+    fill: #e80368;
+}
+.icon-three:hover .icon i {
+    color: #fff;
+}
+.icon-four:hover .icon path {
+    fill: #ffbb2c;
+}
+.icon-four:hover .icon i {
+    color: #fff;
+}
+.icon-five:hover .icon path {
+    fill: #ff5828;
+}
+.icon-five:hover .icon i {
+    color: #fff;
+}
+.icon-six:hover .icon path {
+    fill: #11dbcf;
+}
+.icon-six:hover .icon i {
+    color: #fff;
+}
+#cta{
+    background: #2487ce;
+}
+.portfolio-menu{
+    text-align: center;
+    margin-top: 10px auto;
+}
+.portfolio-menu ul li {
+    list-style: none;
+    padding: 10px 15px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    color: #444444;
+    margin: 0;
+    margin-bottom: 5px;
+    transition: all 0.3s ease-in-out;
+}
+.portfolio-menu ul li:hover, .portfolio-menu ul li.active {
+    color: #2487ce;
+}
+.portfolio-items{
+    width: 100%;
+}
+.portfolio-items img{
+    width: 100%;
+    margin-bottom: 30px;
+}
