@@ -192,5 +192,6 @@ box-sizing: border-box;
 }
 .portfolio-items img{
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    padding-right: 20px;
 }
