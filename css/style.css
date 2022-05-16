@@ -6,8 +6,11 @@ box-sizing: border-box;
 .text-primary{
     color: #124265 !important; 
 }
-.text-pr {
+.text-pr, {
     color: #2487ce;
+}
+.bg-pr{
+    background: #2487ce;
 }
 .text-pri {
     color: #1e6ca6;
@@ -49,7 +52,7 @@ box-sizing: border-box;
     padding-left: 0px;
 }
 
-#count-section, #services{
+#count-section, #services, #Team{
     background-color: #f8fbfe;
 }
 #clients{
@@ -195,3 +198,39 @@ box-sizing: border-box;
     margin-bottom: 20px;
     padding-right: 20px;
 }
+.team .card .social-handle{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    display: inline-flex;
+}
+.team .card:hover .social-handle {
+    opacity: 1;
+}
+.team .card .social-handle a{
+    margin: 0 10px;
+    display: inline-block;
+} 
+#pricing ul{
+    list-style: none;
+    line-height: 34px;
+}
+#pricing ul .line-through{
+    color: #ccc;
+    text-decoration: line-through;
+}
+#pricing .card-body h4{
+    color: #2487ce;
+    font-size: 42px;
+}
+#pricing  .featured h4{
+    color: white;
+    font-size: 42px;
+}
+.btn-outline-light:hover {
+    color:#2487ce;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+
