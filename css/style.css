@@ -6,8 +6,8 @@ box-sizing: border-box;
 .text-primary{
     color: #124265 !important; 
 }
-.text-pr, {
-    color: #2487ce;
+.text-pr {
+    color:#2487ce;
 }
 .bg-pr{
     background: #2487ce;
@@ -52,7 +52,7 @@ box-sizing: border-box;
     padding-left: 0px;
 }
 
-#count-section, #services, #Team{
+#count-section, #services, #Team, #faq{
     background-color: #f8fbfe;
 }
 #clients{
