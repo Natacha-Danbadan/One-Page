@@ -233,4 +233,31 @@ box-sizing: border-box;
     background-color: #f8f9fa;
     border-color: #f8f9fa;
 }
-
+.accordion-button:focus {
+    box-shadow: 0 0 0 0 !important;
+}
+.accordion-button:not(.collapsed) {
+    color: #469fdf !important;
+    background-color: white !important;
+    box-shadow: 0 0 0 0 !important;
+}
+.accordion-item {
+    border: 8px solid white !important;
+}
+#contact .contact-info i {
+    font-size: 20px;
+    color: #2487ce;
+    display: flex;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #e3f0fa;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+#contact .contact-info .email:hover i, #contact .contact-info .address:hover i, #contact .contact-info .call:hover i {
+    background: #2487ce;
+    color: #fff;
+}
