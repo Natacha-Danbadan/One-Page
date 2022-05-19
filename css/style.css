@@ -57,6 +57,9 @@ box-sizing: border-box;
     left: 0;
     right: 0;
 }
+#cards-section .card:hover {
+    transform: scale(1.08);
+}
 #about-section ul, #about-video ul{
     list-style: none;
     padding-left: 0px;
