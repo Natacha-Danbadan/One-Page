@@ -3,6 +3,17 @@ padding: 0;
 margin: 0;
 box-sizing: border-box;
 }
+
+.navbar a{
+    color: #16507b;
+}
+.navbar .active {
+    color: #2487ce !important;
+}
+.nav-link:hover {
+    color: #0a58ca !important;
+}
+
 .text-primary{
     color: #124265 !important; 
 }
@@ -32,10 +43,10 @@ box-sizing: border-box;
 }
 
 .top-hero-section{
-    background: url(../img/hero-bg.jpg) no-repeat;
+    background: url(../img/hero-bg.jpg) no-repeat top center;
     background-size: cover;
-    background-position: center;
     background-attachment: fixed;
+    position: relative;
 }
 .top-hero-section::before{
     content: "";
@@ -45,7 +56,6 @@ box-sizing: border-box;
     top: 0;
     left: 0;
     right: 0;
-    z-index: -1;    
 }
 #about-section ul, #about-video ul{
     list-style: none;
@@ -204,6 +214,7 @@ box-sizing: border-box;
     justify-content: center;
     opacity: 0;
     display: inline-flex;
+    background: rgba(255, 255, 255, 0.85);
 }
 .team .card:hover .social-handle {
     opacity: 1;
@@ -212,6 +223,9 @@ box-sizing: border-box;
     margin: 0 10px;
     display: inline-block;
 } 
+.mb-md-5{
+    margin-bottom: 4rem !important;
+}
 #pricing ul{
     list-style: none;
     line-height: 34px;
@@ -260,4 +274,32 @@ box-sizing: border-box;
 #contact .contact-info .email:hover i, #contact .contact-info .address:hover i, #contact .contact-info .call:hover i {
     background: #2487ce;
     color: #fff;
+}
+#footer{
+    box-shadow: 0px 2px 15px rgb(18 66 101 / 8%);
+}
+#footer .footer-top a{
+    text-decoration: none;
+    color: #777777;
+}
+.input-group-text {
+    color:white !important;
+    background-color:#3194db !important;
+}
+#footer .footer-bottom a{
+    text-decoration: none;
+}
+#footer .socials a {
+    font-size: 18px;
+    background: #2487ce;
+    color: #fff;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 36px;
+    text-align: center;
+}
+ .footer-bottom{
+    background-color: #f8fbfe;
 }
